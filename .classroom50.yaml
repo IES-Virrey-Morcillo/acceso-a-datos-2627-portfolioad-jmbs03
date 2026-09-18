@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "acceso-a-datos-2627"
+assignment: "portfolioad"
+owner:
+  username: "jmbs03"
+  id: 182321957
+  accepted_at: "2026-09-18T09:48:09Z"
+source:
+  owner: "IES-Virrey-Morcillo"
+  owner_id: 183601586
+  repo: "Portfolio-AD"
+  branch: "main"
