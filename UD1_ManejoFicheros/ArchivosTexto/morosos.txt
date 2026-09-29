@@ -1,0 +1,4 @@
+Pedro debes la cantidad de 1234 €, por lo que se te retirarán los cargos de la cuenta corriente en la que tienes 5000.
+Luis debes la cantidad de 5678 €, por lo que se te retirarán los cargos de la cuenta corriente en la que tienes 300.Como le falta la cantidad 5378, se le añadirá a la deuda un 10% de la diferencia (537.8000000000001).
+Manuel debes la cantidad de 9012 €, por lo que se te retirarán los cargos de la cuenta corriente en la que tienes 2000.Como le falta la cantidad 7012, se le añadirá a la deuda un 10% de la diferencia (701.2).
+Denis2 debes la cantidad de 3456 €, por lo que se te retirarán los cargos de la cuenta corriente en la que tienes 3000.Como le falta la cantidad 456, se le añadirá a la deuda un 10% de la diferencia (45.6).
