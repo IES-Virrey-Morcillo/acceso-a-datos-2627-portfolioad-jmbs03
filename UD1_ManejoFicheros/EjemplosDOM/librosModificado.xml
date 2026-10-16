@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Libros>
+    <Libro publicado="1894">
+        <Titulo>El Libro de la Jungla</Titulo>
+        <Autor>Rudiard Kipling</Autor>
+    </Libro>
+    <Libro publicado="1981">
+        <Titulo>El Nombre de la Rosa</Titulo>
+        <Autor>Umberto Eco</Autor>
+    </Libro>
+    <Libro publicado="1605">
+        <Titulo>Don Quijote</Titulo>
+        <Autor>Alejandro Morales</Autor>
+    </Libro>
+    <Libro publicado="1967">
+        <Titulo>Cien años de soledad</Titulo>
+        <Autor>Gabriel García Márquez</Autor>
+    </Libro>
+    <Libro publicado="2004">
+        <Titulo>La sombra del viento</Titulo>
+        <Autor>Carlos Ruiz Zafón</Autor>
+    </Libro>
+    <Libro publicado="1998">
+        <Titulo>El caballero de los siete reinos</Titulo>
+        <Autor>George RR Martin</Autor>
+    </Libro>
+    <Libro publicado="1998">
+        <Titulo>El caballero de los siete reinos</Titulo>
+        <Autor>George RR Martin</Autor>
+    </Libro>
+    <Libro publicado="1978">
+        <Titulo>Los renglones torcidos de Dios</Titulo>
+        <Autor>JMBS</Autor>
+    </Libro>
+</Libros>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+    <!-- Definimos el elemento raíz Libros --> 
+    <xs:element name="Libros"> 
+        <xs:complexType> 
+            <xs:sequence> <!-- Un libro puede aparecer una o más veces --> 
+                <xs:element name="Libro" maxOccurs="unbounded"> 
+                    <xs:complexType> 
+                        <xs:sequence> <!-- El elemento "Titulo" es obligatorio --> 
+                            <xs:element name="Titulo" type="xs:string" minOccurs="1" maxOccurs="1"/> <!-- El elemento "Autor" es obligatorio --> 
+                            <xs:element name="Autor" type="xs:string" minOccurs="1" maxOccurs="1"/> 
+                        </xs:sequence> <!-- El elemento "Libro" tiene un atributo "publicado" de tipo año --> 
+                        <xs:attribute name="publicado" type="xs:gYear" use="required"/> 
+                    </xs:complexType> 
+                </xs:element> 
+            </xs:sequence> 
+        </xs:complexType> 
+    </xs:element> 
+</xs:schema>

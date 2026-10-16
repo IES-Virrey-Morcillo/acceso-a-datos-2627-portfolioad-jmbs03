@@ -60,8 +60,8 @@ public class Ejemplo5 {
         } catch (NoSuchFileException ex) {
             System.out.println("El archivo origen no existe");
         } catch (FileAlreadyExistsException ex) {
-            destino.toString()
-            moverArchivo(origen,destino2);
+            
+            
         }       
         catch (IOException e) {
             e.printStackTrace();
