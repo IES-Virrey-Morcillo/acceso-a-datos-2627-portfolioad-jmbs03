@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="libro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="editorial" type="xs:string"/>
+                            <xs:element name="autor" type="xs:string" maxOccurs="3"/>
+                        </xs:sequence>
+                        <xs:attribute name="fechaPublicacion" type="xs:date" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pelicula">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="productora" type="xs:string"/>
+                            <xs:element name="actor" type="xs:string" maxOccurs="3"/>
+                        </xs:sequence>
+                        <xs:attribute name="fechaPublicacion" type="xs:date" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="albumMusica">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="autor" type="xs:string"/>
+                            <xs:element name="discografica" type="xs:string"/>
+                            <xs:element name="cancion" type="xs:string" maxOccurs="12"/>
+                        </xs:sequence>
+                        <xs:attribute name="fechaPublicacion" type="xs:date" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

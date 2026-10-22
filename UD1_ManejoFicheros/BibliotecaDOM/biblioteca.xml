@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro fechaPublicacion="2001-04-06">
+        <titulo>La sombra del viento</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <autor>Carlos Ruiz Zafón</autor>
+    </libro>
+    
+    <libro fechaPublicacion="2016-09-08">
+        <titulo>Patria</titulo>
+        <editorial>Tusquets Editores</editorial>
+        <autor>Fernando Aramburu</autor>
+        <autor>Juan Gómez-Jurado</autor>
+    </libro>
+    
+    <pelicula fechaPublicacion="2001-08-02">
+        <titulo>Los otros</titulo>
+        <productora>Sogecine</productora>
+        <actor>Nicolás Fernández Luna</actor>
+        <actor>Alejandro Amenábar</actor>
+    </pelicula>
+    
+    <pelicula fechaPublicacion="2004-09-03">
+        <titulo>Mar adentro</titulo>
+        <productora>Himenóptero</productora>
+        <actor>Javier Bardem</actor>
+        <actor>Belen Rueda</actor>
+        <actor>Lola Dueñas</actor>
+    </pelicula>
+    
+    <albumMusica fechaPublicacion="2018-11-02">
+        <titulo>El mal querer</titulo>
+        <autor>Rosalía</autor>
+        <discografica>Sony Music</discografica>
+        <cancion>Malamente</cancion>
+        <cancion>Pienso en tu mirá</cancion>
+        <cancion>Di mi nombre</cancion>
+    </albumMusica>
+    
+    <albumMusica fechaPublicacion="1995-06-27">
+        <titulo>El patio</titulo>
+        <autor>Vicente Amigo</autor>
+        <discografica>EMI Music</discografica>
+        <cancion>Morente</cancion>
+        <cancion>La tarde es caramelo</cancion>
+    </albumMusica>
+</biblioteca>

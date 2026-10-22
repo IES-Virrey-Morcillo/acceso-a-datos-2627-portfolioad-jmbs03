@@ -1,0 +1,20 @@
+ El volumen de la unidad C es Acer
+ El n£mero de serie del volumen es: 3A32-7A11
+
+ Directorio de C:\Users\josema\Documents\GitHub\acceso-a-datos-2627-portfolioad-jmbs03\UD1_ManejoFicheros\Multiprocesos
+
+19/10/2026  12:26    <DIR>          .
+19/10/2026  12:26    <DIR>          ..
+19/10/2026  09:54    <DIR>          build
+14/10/2026  10:05             3.624 build.xml
+19/10/2026  09:54    <DIR>          dist
+14/10/2026  10:05                85 manifest.mf
+14/10/2026  10:05    <DIR>          nbproject
+19/10/2026  12:25               118 numeros.txt
+19/10/2026  12:25               120 numerosOrdenados.txt
+21/10/2026  09:54                 0 salida.txt
+19/10/2026  12:26                19 salidaPipeToSort.txt
+19/10/2026  12:16    <DIR>          src
+14/10/2026  10:06    <DIR>          test
+               6 archivos          3.966 bytes
+               7 dirs  22.199.586.816 bytes libres
