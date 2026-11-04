@@ -128,10 +128,7 @@ public class BibliotecaDOM {
      */
     public void mostrarBiblioteca(String filtro) {
 
-        Element libro, pelicula, albumMusica;
-
         Node raiz = doc.getFirstChild();
-        NodeList canciones = doc.getElementsByTagName("cancion");
         NodeList hijos = raiz.getChildNodes();
 
         for (int i = 0; i < hijos.getLength(); i++) {
@@ -160,15 +157,10 @@ public class BibliotecaDOM {
                             break;
 
                         }
-
                     }
-
                 }
-
             }
-
         }
-
     }
 
     public int insertarLibro(String titulo, String editorial, String fechaPublicacion, ArrayList<String> autores) {
