@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Titulo" type="xs:string"/>
+  <xs:element name="Autor" type="xs:string"/>
+  <xs:element name="Libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Titulo"/>
+        <xs:element ref="Autor"/>
+      </xs:sequence>
+      <xs:attribute type="xs:int" name="publicado" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Libro" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

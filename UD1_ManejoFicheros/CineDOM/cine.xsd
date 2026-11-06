@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- Elemento raíz -->
+    <xs:element name="cine">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- El elemento 'pelicula' puede repetirse múltiples veces -->
+                <xs:element name="pelicula" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="sala" minOccurs="0" type="xs:int"/>
+                            <xs:element name="idioma" type="xs:string"/>
+                            <xs:element name="precio" type="xs:decimal"/>
+                        </xs:sequence>
+                        <!-- Atributo 'calificacion' obligatorio -->
+                        <xs:attribute name="calificacion" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <!-- Atributo 'numSalas' obligatorio -->
+            <xs:attribute name="numSalas" type="xs:int" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
