@@ -195,16 +195,48 @@ public class LibrosJAXB {
         }
     }
 
-    public void ordenarLibreria() {
+    public void ordenarLibreria(String modo) {
         
         Comparator<Libro> comparatorPorAno = new Comparator<Libro>() {
             @Override
             public int compare(Libro libro1, Libro libro2) {
-                return Short.compare(libro2.getPublicado(), libro1.getPublicado());
+                return Short.compare(libro1.getPublicado(), libro2.getPublicado());
             }
         };
+        
+        Comparator<Libro> comparatorPorTitulo = new Comparator<Libro>() {
+            @Override
+            public int compare(Libro libro1, Libro libro2) {
+                return libro1.getTitulo().compareTo(libro2.getTitulo());
+            }
+        };
+        
+        switch(modo) {
+            case "publicado" -> {
+                System.out.println("Se ordena por fecha de publicacion");
+                Collections.sort(lLibros, comparatorPorAno);
+            }
 
-        Collections.sort(lLibros, comparatorPorAno);
+            
+            case "autor" -> {
+                System.out.println("Se ordena por autor");
+                lLibros.sort((l1,l2) -> l1.getAutor().compareTo(l2.getAutor()));
+            }
+            case "autorDESC" -> {
+                System.out.println("Se ordena por autor DESC");
+                lLibros.sort((l1,l2) -> l2.getAutor().compareTo(l1.getAutor()));
+            }            
+            case "titulo" -> {
+                System.out.println("Se ordena por titulo");
+                lLibros.sort(Comparator.comparing(Libro::getTitulo));
+            }
+            case "tituloDESC" -> {
+                System.out.println("Se ordena por titulo DESC");
+                lLibros.sort(Comparator.comparing(Libro::getTitulo).reversed());
+            }
+            default -> System.out.println("No se ordena");
+        }
+        
         System.out.println("Librería ordenada");
     }
 

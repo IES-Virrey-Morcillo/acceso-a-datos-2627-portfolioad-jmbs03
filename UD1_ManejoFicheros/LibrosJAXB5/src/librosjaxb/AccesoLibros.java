@@ -36,7 +36,15 @@ public class AccesoLibros {
         libros.eliminarLibros("No existe");
         libros.eliminarLibros(null);
         
-        libros.ordenarLibreria();
+        libros.ordenarLibreria("titulo");
+        libros.mostrarV2("");
+        libros.ordenarLibreria("publicado");
+        libros.mostrarV2("");
+        libros.ordenarLibreria("autorDESC");
+        libros.mostrarV2("");
+        libros.ordenarLibreria("tituloDESC");
+        libros.mostrarV2("");
+        libros.ordenarLibreria("");
         libros.mostrarV2("");
         
         libros.creaXMLdeLibros("librosModificado.xml");
